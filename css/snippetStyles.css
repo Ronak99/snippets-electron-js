@@ -1,0 +1,147 @@
+body{
+    background:#1c1f23;
+}
+
+.codingScreen{
+    display:grid;
+    z-index: 5;
+    grid-template-columns: auto 1fr auto;
+}
+
+.explorerContainer{
+    
+    width:215px;
+}
+
+.explorerContainerStyles{
+    background:#2d3239;
+}
+
+.filesContainer{
+    color:#fff;
+    font-family: century gothic;
+    white-space: nowrap;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    max-height:250px;
+}
+
+
+.folderFiles{
+    background:#1c1f23;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5px;
+    margin-right:5px;
+    color:#fff;
+    font-family:century gothic;
+    white-space:nowrap;
+    border-radius:4px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+
+}
+
+.folderTitle{
+    font-size:15px;
+    padding:10px;
+    display:grid;
+    grid-template-columns: 1fr auto auto;
+}
+
+#folderName{
+    display:inline-block;
+}
+
+#syncFiles, #changeFolder{
+    display:inline-block;
+    color:#fff;
+    border:0;
+    border-radius:3px;
+    cursor:pointer;
+    padding:5px;
+    font-size:9px;
+    outline:0;
+}
+
+#syncFiles{
+    font-size:12px;
+    margin-right:10px;
+    background:transparent;
+}
+
+#syncFiles:hover{
+    background:#262a2f;
+}
+
+#changeFolder{
+    letter-spacing:1.1;
+    background:linear-gradient(#343f4c, #2b3038);
+}
+
+.exploredFilesContainer{
+    display: flex;
+    overflow:scroll;
+    flex-direction:column;
+    max-height:350px;
+}
+
+.widgetsContainer{
+    padding:5px;
+}
+
+.editorContainer{
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.codeStat{
+    border-top:1px solid #2d3239;
+    font-size:8pt;
+    color:#fff;
+    background:#141517;
+    font-family:century gothic;
+    text-transform: uppercase;
+}
+
+.currentLang{
+    float:right;
+    width:fit-content;
+    padding:7px;
+    border-left:1px solid #2d3239;
+}
+
+.widgetsDrawer button{
+    display:block;
+    height:30px;
+    width:35px;
+    margin-bottom:15px;
+    cursor:pointer;
+    border:2px solid transparent;
+    outline:0;
+
+}
+
+.widgetsDrawer button:hover{
+    box-shadow: inset 0px 0px 68px rgba(255, 255, 255, 0.19);
+}
+
+#stackOverflow{
+    background:url("../img/so-icon.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+#fontAwesome{
+    background:url("../img/font_awesome_logo.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+#cdnjs{
+    background:url("../img/cdnjs.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+#github{
+    background:url("../img/github.png") 50% 50% no-repeat;
+    background-size: cover;
+}
