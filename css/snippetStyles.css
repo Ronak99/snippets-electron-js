@@ -2,6 +2,27 @@ body{
     background:#1c1f23;
 }
 
+::-webkit-scrollbar{
+    width:2px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #eee;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#ddd;
+}
+
+::-webkit-scrollbar-corner{
+    background:transparent;
+}
+
 .codingScreen{
     display:grid;
     z-index: 5;
@@ -144,4 +165,39 @@ body{
 #github{
     background:url("../img/github.png") 50% 50% no-repeat;
     background-size: cover;
+}
+
+.filesContainer li{
+    list-style:none;
+    padding-left:20px;
+    cursor:pointer;
+}
+
+.filesContainer li:hover{
+    background:#262a2f;
+}
+
+.closeTabIcon{
+    color:#fff;
+    font-weight: bold;
+    font-size:7px;
+    margin-top:0px;
+    position: relative;
+    top:-2px;
+    left:-12px;
+    background:transparent;
+    padding: 3px 5px 3px 5px; 
+}
+
+.closeTabIcon:hover{
+    color:#1c1f22;
+}
+
+.fileNameSpan{
+    background:transparent;
+    padding-top:4px;
+    display:inline-block;
+    padding-bottom:4px;
+    width:100%;
+    font-size:12px;
 }
