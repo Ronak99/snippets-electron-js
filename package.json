@@ -1,0 +1,12 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "A code editor for the modern developer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ronak Punase",
+  "license": "ISC"
+ 
+}

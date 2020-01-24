@@ -1,0 +1,80 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+height:100%;
+padding:0;
+display:grid;
+grid-template-rows: auto 1fr;
+}
+
+body *{
+	box-sizing: border-box;
+}
+
+.windowTitle{
+	padding:10px;
+	height:auto;
+	display:inline-block;
+	font-family: montserrat;
+}
+
+.windowTitle span{
+	font-size:8pt;
+}
+
+.windowControls{
+	float:right;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-right:5px;
+	width:135px;
+}
+
+.windowControls button{
+	outline:0;
+	border:0;
+	padding:5px;
+	background:none;
+}
+
+.titleBar{
+	display:grid;
+	grid-template-columns: 1fr auto;
+}
+
+
+.titleBarStyle{
+		background:#202327;
+	font-family:montserrat;
+	color:#fff;
+	font-size:10pt;
+}
+
+
+.windowControlsStyle{
+	background: none;
+	
+	border-radius:0 0 5px 5px;
+}
+
+.windowControlsStyle button{
+	color:#fff;
+	font-weight:bold;
+}
+
+.windowControlsStyle button:hover{
+	background:#484a4c;
+}
+
+.preventSelect{
+	user-select: none;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+}
+
+.draggable{
+	-webkit-app-region: drag;
+}

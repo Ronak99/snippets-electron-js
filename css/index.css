@@ -1,0 +1,148 @@
+.mainContainer{
+	padding:20px;
+	height:95%;
+	overflow-y:scroll; 
+}
+
+
+.featuresContainer{
+	display: grid;
+	height:100%;
+	  grid-template-columns: 1fr repeat(3,10fr);
+  	grid-template-rows: auto;
+  	grid-template-areas: 
+    "welcome welcome action action"
+    "welcome welcome action action"
+    "welcome welcome action action";
+	grid-gap:20px;
+	padding:30px;
+}
+
+@media(max-width:750px){
+	
+	.featuresContainer{
+	display: grid;
+	height:auto;
+	  grid-template-columns: 1fr repeat(3,10fr);
+  	grid-template-rows: auto;
+  	grid-template-areas: 
+    "welcome welcome welcome welcome"
+    "welcome welcome welcome welcome"
+    "action action action action";
+	grid-gap:20px;
+	padding:30px;
+}
+	
+}
+
+
+.welcomeBlock{
+	grid-area:welcome;
+	text-align:center;
+	padding:8px;
+}
+
+.welcome{
+	font-family: century gothic;
+	color:#fff;
+
+	font-size:40pt;
+}
+
+.tagline{
+	font-size:13pt;
+	margin-top:13px;
+}
+
+.actionBlock{
+	grid-area:action;
+}
+
+
+.snippetLogoRect{
+	background:#16181a;
+	border-radius:8px;
+	
+	height:200px;
+	width:200px;
+	display:block;
+	margin:0 auto; 
+	margin-top:80px;
+	margin-bottom:20px;
+}
+
+.codestyleBlock{
+	grid-area:codestyle;
+}
+
+.titleBar{
+	 display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.actionTitle{
+	font-family:century gothic;
+	width:100%;
+	padding-top:15px;
+	padding-bottom:5px;
+	color:#fff;
+	text-align:center;
+	font-size:12pt;
+}
+
+hr{
+	height:1px;
+	background:linear-gradient(90deg,#202327 20%,rgba(255,255,255,0.6),#202327 80%);
+	border:0;
+}
+
+.actionFigures{
+	display:grid;
+	grid-template-rows: repeat(3,auto);
+	grid-template-columns: repeat(2,1fr);
+	grid-gap:20px;
+	padding:20px;
+	position:relative;
+	top:50%;
+	margin-top:-10px;
+	transform:translateY(-50%);
+}
+
+.actionFigures div{
+	cursor:pointer;
+		padding:10px;
+	text-align:center;
+
+}
+
+.actionFigures div:hover .actionFiguresImg{
+	box-shadow:0px 0px 5px dodgerblue;
+}
+
+.actionFiguresImg{
+	border-radius:5px;
+	background:#16181a;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	display:block;
+}
+
+.actionFiguresTitle{
+	color:#fff;
+	font-family: montserrat;
+	font-size:10pt;
+	margin-top:10px;
+}
+
+
+
+.draggable{
+	  -webkit-app-region: drag;
+}
+
+
+/** the coding thing begins from here onwards**/
+
+
+

@@ -1,0 +1,113 @@
+.customThemeBlockContainer{
+
+	display: grid;
+	grid-template-rows: 1fr auto;
+
+}
+
+.mainContainer{
+	display:grid;
+	grid-template-columns: 1fr 260px;
+}
+
+.demoEditorContainer{
+	display: grid;
+	height:100%;
+	grid-template-rows: auto 1fr;
+}
+
+.themeConfigContainer{
+	display:grid;
+	grid-template-rows: auto 1fr;
+	border-radius: 5px;
+    background: #2d3540;
+    margin-left: 10px;
+}
+
+.titleConfig{
+	display:grid;
+	grid-template-columns: 1fr auto;
+	padding:10px;
+	font-family:montserrat;
+	color:#fff;
+	font-size:10px;
+}
+
+.bottomBar{
+
+}
+
+#demoEditorSlate{
+position: relative;  
+top:0;  
+right: 0;  
+bottom: 90;  
+left:0;  
+font-size:14pt;  
+font-weight:normal;  
+white-space:nowrap;  
+z-index:999; 
+height:100%;
+width:100%;
+pointer-events: none;
+}
+
+.titleConfig button{
+	    background: transparent;
+    border: 0;
+    color: #fff;
+}
+
+.jscolor{
+	border:0;
+	padding:10px;
+	outline:0;
+}
+
+.controls{
+	overflow:scroll;
+}
+
+
+.controls section{
+
+	padding-top: 10px;
+	padding-bottom:20px;
+	padding-left:10px;
+	border-bottom: 2px solid #3f4a58;
+}
+
+.controlSectionHeading{
+
+	color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: montserrat;
+    display: grid;
+    margin-top:10px;
+    grid-template-columns: 1fr auto;
+
+}
+
+.content{
+	margin-top:15px;
+}
+
+select{
+	border-radius:5px;
+	font-family:montserrat;
+	font-size:11px;
+	padding:5px;
+	margin-top:-5px;
+	margin-right:10px;
+	border:0;
+	outline:00;
+}
+
+.colorPicker{
+	padding:5px;
+	font-family:9px;
+	width:100%;
+
+}

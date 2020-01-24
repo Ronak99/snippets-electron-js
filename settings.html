@@ -1,0 +1,374 @@
+
+<html>
+
+<head>
+
+	<title>Settings</title>
+	
+
+		<link rel="stylesheet" href="css/windowStyle.css">
+		<link rel="stylesheet" href="css/settings.css">	
+
+
+	
+	<!-- Insert this line above script imports  -->
+<script>
+	if (typeof module === 'object') {window.module = module; module = undefined;}
+</script>
+
+<!-- normal script imports etc  -->
+		<script src="js/libraries/jquery.min.js"></script>
+		<script src="js/libraries/fontaw.js"></script>
+	
+		
+<!-- Insert this line after script imports -->
+		<script>if (window.module) module = window.module;</script>
+
+	</head>
+	<body>
+	
+	<div class="container">
+	
+
+		<div class="titleBar titleBarStyle">
+	
+		<div class="windowTitle preventSelect">
+			<div class='dropdownContainer'>
+				<div id='selectedSettingName'>THEMES</div> <i class="fas fa-angle-down"></i>
+
+				<div class="settingsNameContainer">
+
+					<li>THEMES</li>
+					<li>Snippets</li>
+					<li>Snippets</li>
+					<li>Snippets</li>
+					<li>Snippets</li>
+					<li>Snippets</li>
+
+				</div>
+
+			</div>
+		</div>
+			
+			<div class="draggable"></div>
+
+			<div class="windowControls windowControlsStyle preventSelect">
+			
+				<button id="quit"> x </button>
+			
+			</div>
+			
+		</div>
+
+		<div class='settingsContainer'>
+
+			<div class='themeContainer'>
+
+			<div class="heading">Choose from a wide range of themes</div>
+
+			<hr>
+
+			<div class="themeGrid">
+				
+			<div class='defaultThemeBlock'>
+			<div class='row'>
+					
+				<section class='gridBox' id='monokai'>
+					
+					<div></div>
+					<div class='themeName'>MONOKAI</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='ambiance'>
+					
+					<div></div>
+					<div class='themeName'>AMBIANCE</div>
+
+				</section>
+
+				 <section class='gridBox' id='snippet'>
+					
+					<div></div>
+					<div class='themeName'>DEFAULT</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='tomorrow_night_bright'>
+					
+					<div></div>
+					<div class='themeName'>Night Bright</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='tomorrow_night_eighties'>
+					
+					<div></div>
+					<div class='themeName'>Night Eighties</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='katzenmilch'>
+					
+					<div></div>
+					<div class='themeName'>KATZENMILCH</div>
+
+				</section>
+
+				 <section class='gridBox' id='dreamweaver'>
+					
+					<div></div>
+					<div class='themeName'>Dreamweaver</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='chrome'>
+					
+					<div></div>
+					<div class='themeName'>Chrome</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='chaos'>
+					
+					<div></div>
+					<div class='themeName'>Chaos</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='clouds'>
+					
+					<div></div>
+					<div class='themeName'>Clouds</div>
+
+
+				 </section>
+
+
+				 <section class='gridBox' id='clouds_midnight'>
+					
+					<div></div>
+					<div class='themeName'>Clouds Midnight</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='cobalt'>
+					
+					<div></div>
+					<div class='themeName'>Cobalt</div>
+
+				</section>
+
+				 <section class='gridBox' id='crimson_editor'>
+					
+					<div></div>
+					<div class='themeName'>Crimson Editor</div>
+
+
+				 </section>
+
+				 
+
+				 <section class='gridBox' id='dawn'>
+					
+					<div></div>
+					<div class='themeName'>Dawn</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='dracula'>
+					
+					<div></div>
+					<div class='themeName'>Dracula</div>
+
+				</section>
+
+				 <section class='gridBox' id='eclipse'>
+					
+					<div></div>
+					<div class='themeName'>Eclipse</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='github'>
+					
+					<div></div>
+					<div class='themeName'>Github</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='gob'>
+					
+					<div></div>
+					<div class='themeName'>Gob</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='gruvbox'>
+					
+					<div></div>
+					<div class='themeName'>GruvBox</div>
+
+
+				 </section>
+
+
+				 <section class='gridBox' id='idle_fingers'>
+					
+					<div></div>
+					<div class='themeName'>Idle Fingers</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='kr_theme'>
+					
+					<div></div>
+					<div class='themeName'>KR THEME</div>
+
+				</section>
+
+				 <section class='gridBox' id='kuroir'>
+					
+					<div></div>
+					<div class='themeName'>Kuroir</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='merbivore'>
+					
+					<div></div>
+					<div class='themeName'>Merbivore</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='merbivore_soft'>
+					
+					<div></div>
+					<div class='themeName'>Merbivore Soft</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='mono_industrial'>
+					
+					<div></div>
+					<div class='themeName'>Mono Industrial</div>
+
+				</section>
+
+				 <section class='gridBox' id='pastel_on_dark'>
+					
+					<div></div>
+					<div class='themeName'>Pastel Dark</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='solarized_dark'>
+					
+					<div></div>
+					<div class='themeName'>Solarized Dark</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='solarized_light'>
+					
+					<div></div>
+					<div class='themeName'>Solarized Light</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='sqlserver'>
+					
+					<div></div>
+					<div class='themeName'>SQL Server</div>
+
+
+				 </section>
+
+
+				 <section class='gridBox' id='terminal'>
+					
+					<div></div>
+					<div class='themeName'>Terminal</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='textmate'>
+					
+					<div></div>
+					<div class='themeName'>TextMate</div>
+
+				</section>
+
+				 <section class='gridBox' id='tomorrow'>
+					
+					<div></div>
+					<div class='themeName'>Tommorrow</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='twilight'>
+					
+					<div></div>
+					<div class='themeName'>Twilight</div>
+
+
+				 </section>
+
+				 <section class='gridBox' id='xcode'>
+					
+					<div></div>
+					<div class='themeName'>Xcode</div>
+
+
+				 </section>
+
+
+				 
+				</div>
+			</div>
+
+
+
+			</div>
+
+		</div>
+		</div>
+
+		<div class='bottomBlock'>
+
+			<button class='cancel'>Cancel</button>
+
+			<button class='ok'> OK</button>
+
+		</div>
+
+	</div>
+
+
+
+	<script src="js/windowScript.js"></script>
+	<script src="js/titleBarStuff.js"></script>
+
+	</body>
+</html>

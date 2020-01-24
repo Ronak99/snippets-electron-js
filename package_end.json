@@ -1,0 +1,22 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "A code editor for the modern developer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . "
+  },
+  "author": "Ronak Punase",
+  "license": "ISC",
+  "devDependencies":{
+	  "asar":"^0.12.3",
+	  "electron":"^2.0.5",
+	  "electron-packager":"12.1.0"
+  },
+  "scripts": {
+"package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+"package-win": "electron-packager . snippets --overwrite --platform=win32 --arch=ia32 --icon=img/snippetSquare.ico --prune=true --out=release-builds --version-com.snippets=CE --version-string.Snippets=CE --version-string.ProductName=\"Snippets\"",    
+"package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
+ }
+}
