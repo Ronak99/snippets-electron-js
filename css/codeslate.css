@@ -246,6 +246,104 @@ width:215px;
 	
 }
 
+#author{
+	background:url('https://avatars3.githubusercontent.com/u/25359214?s=460&v=4') 50% 50% no-repeat;
+	background-size:cover;
+	border-radius: 100%;
+}
+.author_dp{
+	background:url('https://avatars3.githubusercontent.com/u/25359214?s=460&v=4') 50% 50% no-repeat;
+	background-size:cover;
+	border-radius: 100%;
+	height: 150;
+	width: 150;
+	display:block;
+	margin: 0 auto;
+}
+
+.authorName{
+
+	width:100%;
+	padding: 20px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #1c1f23;
+	font-size: 15pt;
+	background: white;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-bottom: 25px;
+
+}
+
+.authorConnect{
+
+	width:100%;
+	padding: 15px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #1c1f23;
+	font-size: 15pt;
+	background: white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: 25px;
+
+}
+
+.authorConnect button{
+	outline: none;
+	border: 0;
+	margin-top:15px;
+	margin-left: 5px;
+	margin-right:5px;
+}
+
+#linkedin{
+	background:url('https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png') 50% 50% no-repeat;
+	background-size: contain;
+	height:35px;
+	width:35px;
+}
+
+#github{
+	background:url('https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/github-512.png') 50% 50% no-repeat;
+	background-size: contain;
+	height:35px;
+	width:35px;
+}
+
+#youtube{
+	background: url('https://c7.uihere.com/files/967/204/995/social-media-youtube-logo-icon-youtube-icon-png-thumb.jpg') 50% 50% no-repeat;
+	height:35px;
+	width:35px;
+	background-size: contain;
+}
+
+#instagram{
+	background: url('https://i.pinimg.com/originals/ff/0e/20/ff0e20de4718fe14cdd256c81c5db771.png') 50% 50% no-repeat;
+	height:35px;
+	width:35px;
+	background-size: contain;
+}
+
+.authorDetailsContainer{
+
+	border-radius: 15px;
+	background: #1c1f23;
+	text-align: center;
+	margin: 15px;
+	margin-top:35px;
+	
+}
+
+#authorDetails p {
+	color: #eee;
+	margin-top:11pt;
+	margin-top:30px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 .inputContainer{
 	height:10%;
 }
@@ -373,9 +471,9 @@ height:90%;
     line-height: 1.6;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     margin-left: 50px;
     text-align: center;
-    transform: translateY(-50%);
 }
 
 .frownFace{

@@ -1,144 +1,147 @@
-
 <html>
 
-	<head>
-	
-		<title>Snippets - New file</title>
-		
-			<link rel="stylesheet" href="css/codeslate.css">
-			<link rel="stylesheet" href="css/theme.css">
-			<link rel="stylesheet" href="css/titleBar.css">
-			<link rel="stylesheet" href="css/jqueryui.css">
-			<link rel="stylesheet" href="css/customThemeBlock.css">
-			
-			<link href="css/menu.css" rel="stylesheet" type="text/css" />
-		
-	
-			 <link href='css/spectrum.css' rel='stylesheet' type='text/css'/>	
-			
-			
-		<!-- Insert this line above script imports  -->
-	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
-	
+<head>
+
+	<title>Snippets - New file</title>
+
+	<link rel="stylesheet" href="css/codeslate.css">
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/titleBar.css">
+	<link rel="stylesheet" href="css/jqueryui.css">
+	<link rel="stylesheet" href="css/customThemeBlock.css">
+
+	<link href="css/menu.css" rel="stylesheet" type="text/css" />
+
+
+	<link href='css/spectrum.css' rel='stylesheet' type='text/css' />
+
+
+	<!-- Insert this line above script imports  -->
+	<script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
 	<!-- normal script imports etc  -->
-			<script src="js/libraries/jquery.min.js"></script>
-		
-			  <script src="js/libraries/jquery.menu.js"></script>
-			<script src="js/libraries/ext-searchbox.js"></script>
-			<script src="js/libraries/ext-beautify.js"></script>
-			<script src="js/libraries/ext-error_marker.js"></script>
-			<script src="js/libraries/ext-spellcheck.js"></script>
-			<script src="js/libraries/jqueryui.js"></script>
-		<script src="js/libraries/fontaw.js"></script>
-		
-		
-			
+	<script src="js/libraries/jquery.min.js"></script>
+
+	<script src="js/libraries/jquery.menu.js"></script>
+	<script src="js/libraries/ext-searchbox.js"></script>
+	<script src="js/libraries/ext-beautify.js"></script>
+	<script src="js/libraries/ext-error_marker.js"></script>
+	<script src="js/libraries/ext-spellcheck.js"></script>
+	<script src="js/libraries/jqueryui.js"></script>
+	<script src="js/libraries/fontaw.js"></script>
+
+
+
 	<!-- Insert this line after script imports -->
-		<!--<script>if (window.module) module = window.module;</script>-->
-	
-		<script src="js/libraries/ace.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="editor/modes/mode-javascript.js"></script>
-		<script src="editor/modes/mode-java.js"></script>
-		<script src="editor/modes/mode-html.js"></script>
-		<script src="editor/modes/mode-css.js"></script>
-		<script src="editor/modes/mode-c_cpp.js"></script>
-		<script src="editor/modes/mode-json.js"></script>
-		<script src="editor/modes/mode-php.js"></script>
-		<script src="editor/modes/mode-python.js"></script>
-		<script src="editor/modes/mode-typescript.js"></script>
-		<script src="editor/modes/mode-c_cpp.js"></script>
-		<script src="editor/modes/mode-xml.js"></script>
-		<script src="editor/modes/mode-dart.js"></script>
-	
-		<!--<script src="theme-snippet-default.js"></script>-->
-		<script src="theme-snippet-default.js"></script>
-	
-		<script src="editor/themes/theme-ambiance.js"></script>
-		<script src="editor/themes/theme-tomorrow_night_bright.js"></script>
-		<script src="editor/themes/theme-tomorrow_night_eighties.js"></script>
-		<script src="editor/themes/theme-katzenmilch.js"></script>
-		<script src="editor/themes/theme-dreamweaver.js"></script>
-		<script src="editor/themes/theme-chrome.js"></script>
-		<script src="editor/themes/theme-chaos.js"></script>
-		<script src="editor/themes/theme-clouds.js"></script>
-		<script src="editor/themes/theme-clouds_midnight.js"></script>
-	
-		<script src="editor/themes/theme-cobalt.js"></script>
-		<script src="editor/themes/theme-crimson_editor.js"></script>
-		<script src="editor/themes/theme-dawn.js"></script>
-		<script src="editor/themes/theme-dracula.js"></script>
-		<script src="editor/themes/theme-eclipse.js"></script>
-		<script src="editor/themes/theme-github.js"></script>
-	
-		<script src="editor/themes/theme-gob.js"></script>
-		<script src="editor/themes/theme-gruvbox.js"></script>
-		<script src="editor/themes/theme-idle_fingers.js"></script>
-		<script src="editor/themes/theme-kr_theme.js"></script>
-		<script src="editor/themes/theme-kuroir.js"></script>
-		<script src="editor/themes/theme-merbivore.js"></script>
-	
-		<script src="editor/themes/theme-merbivore_soft.js"></script>
-		<script src="editor/themes/theme-mono_industrial.js"></script>
-		<script src="editor/themes/theme-monokai.js"></script>
-		<script src="editor/themes/theme-pastel_on_dark.js"></script>
-		<script src="editor/themes/theme-solarized_dark.js"></script>
-		<script src="editor/themes/theme-solarized_light.js"></script>
-	
-		<script src="editor/themes/theme-sqlserver.js"></script>
-		<script src="editor/themes/theme-terminal.js"></script>
-		<script src="editor/themes/theme-textmate.js"></script>
-		<script src="editor/themes/theme-tomorrow.js"></script>
-		<script src="editor/themes/theme-twilight.js"></script>
-		<script src="editor/themes/theme-xcode.js"></script>
-	
-		<script src="ace-builds-master/src-min/snippets/php.js"></script>
-		<script src="ace-builds-master/src-min/snippets/html.js"></script>
-		
-		<!-- themes end -->
-		
-		</head>
-		<body>
-		
-			<div id="contextMenu">
-				<!--  context menu -->
+	<!--<script>if (window.module) module = window.module;</script>-->
+
+	<script src="js/libraries/ace.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="editor/modes/mode-javascript.js"></script>
+	<script src="editor/modes/mode-java.js"></script>
+	<script src="editor/modes/mode-html.js"></script>
+	<script src="editor/modes/mode-css.js"></script>
+	<script src="editor/modes/mode-c_cpp.js"></script>
+	<script src="editor/modes/mode-json.js"></script>
+	<script src="editor/modes/mode-php.js"></script>
+	<script src="editor/modes/mode-python.js"></script>
+	<script src="editor/modes/mode-typescript.js"></script>
+	<script src="editor/modes/mode-c_cpp.js"></script>
+	<script src="editor/modes/mode-xml.js"></script>
+	<script src="editor/modes/mode-dart.js"></script>
+
+	<!--<script src="theme-snippet-default.js"></script>-->
+	<script src="theme-snippet-default.js"></script>
+
+	<script src="editor/themes/theme-ambiance.js"></script>
+	<script src="editor/themes/theme-tomorrow_night_bright.js"></script>
+	<script src="editor/themes/theme-tomorrow_night_eighties.js"></script>
+	<script src="editor/themes/theme-katzenmilch.js"></script>
+	<script src="editor/themes/theme-dreamweaver.js"></script>
+	<script src="editor/themes/theme-chrome.js"></script>
+	<script src="editor/themes/theme-chaos.js"></script>
+	<script src="editor/themes/theme-clouds.js"></script>
+	<script src="editor/themes/theme-clouds_midnight.js"></script>
+
+	<script src="editor/themes/theme-cobalt.js"></script>
+	<script src="editor/themes/theme-crimson_editor.js"></script>
+	<script src="editor/themes/theme-dawn.js"></script>
+	<script src="editor/themes/theme-dracula.js"></script>
+	<script src="editor/themes/theme-eclipse.js"></script>
+	<script src="editor/themes/theme-github.js"></script>
+
+	<script src="editor/themes/theme-gob.js"></script>
+	<script src="editor/themes/theme-gruvbox.js"></script>
+	<script src="editor/themes/theme-idle_fingers.js"></script>
+	<script src="editor/themes/theme-kr_theme.js"></script>
+	<script src="editor/themes/theme-kuroir.js"></script>
+	<script src="editor/themes/theme-merbivore.js"></script>
+
+	<script src="editor/themes/theme-merbivore_soft.js"></script>
+	<script src="editor/themes/theme-mono_industrial.js"></script>
+	<script src="editor/themes/theme-monokai.js"></script>
+	<script src="editor/themes/theme-pastel_on_dark.js"></script>
+	<script src="editor/themes/theme-solarized_dark.js"></script>
+	<script src="editor/themes/theme-solarized_light.js"></script>
+
+	<script src="editor/themes/theme-sqlserver.js"></script>
+	<script src="editor/themes/theme-terminal.js"></script>
+	<script src="editor/themes/theme-textmate.js"></script>
+	<script src="editor/themes/theme-tomorrow.js"></script>
+	<script src="editor/themes/theme-twilight.js"></script>
+	<script src="editor/themes/theme-xcode.js"></script>
+
+	<script src="ace-builds-master/src-min/snippets/php.js"></script>
+	<script src="ace-builds-master/src-min/snippets/html.js"></script>
+
+	<!-- themes end -->
+
+</head>
+
+<body>
+
+	<div id="contextMenu">
+		<!--  context menu -->
+	</div>
+
+	<div id="renameFileContainer">
+		Rename...
+		<input type="text" id="renameInput">
+	</div>
+
+	<div class="container">
+
+		<div class="titleBar titleBarStyle">
+
+			<div class="windowTitle draggable preventSelect"> <span id='currentFileName'> </span> SNIPPETS</div>
+
+			<div class="windowControls windowControlsStyle preventSelect">
+
+				<button id="minimise"> <i class="far fa-window-minimize"></i> </button>
+				<button id="maximise"> <i class="far fa-window-maximize"></i> </button>
+				<button id="quit"> <i class="fas fa-times"></i> </button>
+
 			</div>
-	
-			<div id="renameFileContainer">
-				Rename...
-				<input type="text" id="renameInput">
-			</div>
-		
-		<div class="container">
-	
-			<div class="titleBar titleBarStyle">
-		
-				<div class="windowTitle draggable preventSelect"> <span id='currentFileName'> </span>  SNIPPETS</div>
-				
-				<div class="windowControls windowControlsStyle preventSelect">
-				
-					<button id="minimise"> <i class="far fa-window-minimize"></i> </button>
-					<button id="maximise"> <i class="far fa-window-maximize"></i> </button>
-					<button id="quit"> <i class="fas fa-times"></i> </button>
-				
-				</div>
-				
-				<div id="menu-bar">
+
+			<div id="menu-bar">
 				<ul class="main-menu">
 					<li>
 						File
 						<ul>
-							
-						   <li class="icon save" onclick='createNewFile()'><a href="#">New File<span>Ctrl+N</span></a></li>
+
+							<li class="icon save" onclick='createNewFile()'><a href="#">New File<span>Ctrl+N</span></a>
+							</li>
 							<li onclick='selectFolder()'>New Folder</li>
-							
+
 							<li class="separator"></li>
-							<li class="icon save" onclick='saveFile()'><a href="javascript:void(0)">Save<span>Ctrl+S</span></a></li>
-							
-							<li class="icon save" onclick="showSaveDialogAndSaveFile()"><a href="javascript:void(0)">Save As</a></li>
-							
+							<li class="icon save" onclick='saveFile()'><a
+									href="javascript:void(0)">Save<span>Ctrl+S</span></a></li>
+
+							<li class="icon save" onclick="showSaveDialogAndSaveFile()"><a
+									href="javascript:void(0)">Save As</a></li>
+
 							<li class="separator"></li>
-							
+
 						</ul>
 					</li>
 					<li>
@@ -164,8 +167,8 @@
 												Third level menu item
 											</li>
 											<li>
-											Third level
-											<ul>
+												Third level
+												<ul>
 													<li>
 														Forth level menu item 1
 													</li>
@@ -183,7 +186,7 @@
 									</li>
 									<li class="separator"></li>
 									<li>
-										 Another menu item
+										Another menu item
 									</li>
 								</ul>
 							</li>
@@ -200,9 +203,10 @@
 						Window
 						<ul>
 							<li class="icon save"><a href="javascript:void(0)">Full Screen<span>F11</span></a></li>
-						   
+
 							<li>
-								<a href="javascript:void(0)" onclick='toggleWidgets()'>Widgets<span><input type='checkbox' id='widgetCheckbox'></span></a>
+								<a href="javascript:void(0)" onclick='toggleWidgets()'>Widgets<span><input
+											type='checkbox' id='widgetCheckbox'></span></a>
 							</li>
 							<li class="separator"></li>
 							<li>
@@ -210,7 +214,7 @@
 							</li>
 						</ul>
 					</li>
-	
+
 					<li>
 						Tools
 						<ul>
@@ -230,9 +234,9 @@
 									<li>JS</li>
 								</ul>
 							</li>
-							</ul>
+						</ul>
 					</li>
-	
+
 					<li>
 						Settings
 						<ul>
@@ -244,7 +248,7 @@
 							<li>Contact us</li>
 						</ul>
 					</li>
-	
+
 					<li>
 						Help
 						<ul>
@@ -256,155 +260,186 @@
 							<li>Contact us</li>
 						</ul>
 					</li>
-				</ul>        
-			</div>  
-	
+				</ul>
 			</div>
-	
-			<div class="codingScreen preventSelect">
-			
-				
-				<div class="explorerContainer explorerContainerStyles" id="resizableExplorer">
-					
-					<div class="filesContainer">
-						<!--all the new and opened files are shown here-->
-						
-						
-					</div>
-	
-					<div class="folderFiles">
-						<!--all the contents of any folder is shown here-->
-						<div class="folderTitle">
-							
-							<div id='folderName'></div>
-	
-							<button id="syncFiles" title="sync files"><i class='fas fa-sync-alt'></i></button>
-							<button id="changeFolder">Change</button>
-	
-						</div>
-	
-						<div class="exploredFilesContainer">
-	
-						</div>
-	
-					</div>
-					
-					</div>
-				
-				<div class="editorContainer">
-				
-				</div>
-				
-				<div class="widgetsContainer widgetsContainerStyles">
-				
-	
-	
-					<div class="widgetLoader">
-						
-						<div id='noConnectionViewContainer' style='display:none'>
-							
-						
-							
-							
-							<div class='noConnectionNote'>
-								<i class="far fa-frown frownFace"></i>
-								<br>
-								No Internet <br> Connection!
-							</div>
-							
-						</div>
-						
-						
-						<div id='stackOverflowViewContainer' class='webviewContainer'>
-							
-							<webview id="stackOverflowView" src="https://www.stackoverflow.com"></webview>
-							
-							<div class="widgetNavigator">
-							
-							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
-							<div id='pageLoadProgress'></div>
-							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
-							
-							</div>
-							
-						</div>
-						
-						<div id='fontAwesomeViewContainer' class='webviewContainer'>
-							
-							<webview id="fontAwesomeView" src="https://fontawesome.com/icons?d=gallery"></webview>
-							
-							<div class="widgetNavigator">
-							
-							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
-							<div id='pageLoadProgress'></div>
-							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
-							
-							</div>
-							
-						</div>
-						
-						<div id='gitViewContainer' class='webviewContainer'>
-						
-							<webview id="gitView" src="https://www.github.com"></webview>
-							
-							<div class="widgetNavigator">
-							
-							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
-							<div id='pageLoadProgress'></div>
-							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
-							
-							</div>
-						
-						</div>
-						
-						<div id='cdnjsViewContainer' class='webviewContainer'>
-						
-							<webview id="cdnjsView" src="https://cdnjs.com/"></webview>
-							
-							<div class="widgetNavigator">
-							
-							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
-							<div id='pageLoadProgress'></div>
-							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
-							
-							</div>
-						
-						</div>
-						
-						
-					</div>
-					
-					<div class="widgetsDrawer">
-					
-						<div class='widgetsHeader'> <span>X</span></div>
-	
-						<button id='stackOverflow' onclick='loadView(id)'></button>
-						
-						<button id="fontAwesome" onclick='loadView(id)'></button>
-						<button id='git' onclick='loadView(id)'></button>
-						<button id='cdnjs' onclick='loadView(id)'></button>
-						
-					</div>
-					
-				
-					
-				</div>
-			
-			</div>
-			
+
 		</div>
-	
-		
-			<!-- index.html -->
-	
-			<script src='js/libraries/spectrum.js'></script>
-			<script src="js/globalContent.js"></script>
-			<script src="js/titleBarStuff.js"></script>
-			<script src="js/shortcuts.js"></script>
-			<script src="js/codeslate.js"></script>
-			<script src='js/widgetHandler.js'></script>
-			
-	
-	
-		</body>
-	</html>
+
+		<div class="codingScreen preventSelect">
+
+
+			<div class="explorerContainer explorerContainerStyles" id="resizableExplorer">
+
+				<div class="filesContainer">
+					<!--all the new and opened files are shown here-->
+
+
+				</div>
+
+				<div class="folderFiles">
+					<!--all the contents of any folder is shown here-->
+					<div class="folderTitle">
+
+						<div id='folderName'></div>
+
+						<button id="syncFiles" title="sync files"><i class='fas fa-sync-alt'></i></button>
+						<button id="changeFolder">Change</button>
+
+					</div>
+
+					<div class="exploredFilesContainer">
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="editorContainer">
+
+			</div>
+
+			<div class="widgetsContainer widgetsContainerStyles">
+
+
+
+				<div class="widgetLoader">
+
+					<div id='noConnectionViewContainer' style='display:none'>
+
+						<div class='noConnectionNote'>
+							<i class="far fa-frown frownFace"></i>
+							<br>
+							No Internet <br> Connection!
+						</div>
+
+					</div>
+
+					<div id='authorDetails' style='display:none'>
+
+						<div class='authorDetailsContainer'>
+							<div class='authorName'><small>Made By:</small> RONAK PUNASE</div>
+							<div class = 'author_dp'></div>
+							<div class='authorConnect'>
+								Let's connect
+								<div>
+									<button id='linkedin' onclick="loadUrl('https:/\/www.linkedin.com/in/ronak-punase-337151b4/')"></button>
+									<button id='github' onclick = "loadUrl('https:/\/github.com/Ronak99/')"></button>
+									<button id='youtube' onclick = "loadUrl('https:/\/www.youtube.com/thecsguy')"></button>
+									<button id='instagram' onclick = "loadUrl('https:/\/www.instagram.com/__thecsguy/')"></button>
+								</div>
+							</div>
+						</div>
+
+						<p>Press Ctrl + M to Minimise</p>
+
+					</div>
+
+					<div id='stackOverflowViewContainer' class='webviewContainer'>
+
+						<webview id="stackOverflowView" src="https://www.stackoverflow.com"></webview>
+
+						<div class="widgetNavigator">
+
+							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
+							<div id='pageLoadProgress'></div>
+							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
+
+						</div>
+
+					</div>
+
+					<div id='stackOverflowViewContainer' class='webviewContainer'>
+
+						<webview id="stackOverflowView" src="https://www.stackoverflow.com"></webview>
+
+						<div class="widgetNavigator">
+
+							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
+							<div id='pageLoadProgress'></div>
+							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
+
+						</div>
+
+					</div>
+
+					<div id='fontAwesomeViewContainer' class='webviewContainer'>
+
+						<webview id="fontAwesomeView" src="https://fontawesome.com/icons?d=gallery"></webview>
+
+						<div class="widgetNavigator">
+
+							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
+							<div id='pageLoadProgress'></div>
+							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
+
+						</div>
+
+					</div>
+
+					<div id='gitViewContainer' class='webviewContainer'>
+
+						<webview id="gitView" src="https://www.github.com"></webview>
+
+						<div class="widgetNavigator">
+
+							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
+							<div id='pageLoadProgress'></div>
+							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
+
+						</div>
+
+					</div>
+
+					<div id='cdnjsViewContainer' class='webviewContainer'>
+
+						<webview id="cdnjsView" src="https://cdnjs.com/"></webview>
+
+						<div class="widgetNavigator">
+
+							<button id='goBack'><i class="fas fa-chevron-circle-left"></i></button>
+							<div id='pageLoadProgress'></div>
+							<button id='goForward'><i class="fas fa-chevron-circle-right"></i></button>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+				<div class="widgetsDrawer">
+
+					<div class='widgetsHeader'> <span>X</span></div>
+
+					<button id='author' onclick='loadView(id)'></button>
+					<button id='stackOverflow' onclick='loadView(id)'></button>
+					<button id="fontAwesome" onclick='loadView(id)'></button>
+					<button id='git' onclick='loadView(id)'></button>
+					<button id='cdnjs' onclick='loadView(id)'></button>
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!-- index.html -->
+
+	<script src='js/libraries/spectrum.js'></script>
+	<script src="js/globalContent.js"></script>
+	<script src="js/titleBarStuff.js"></script>
+	<script src="js/shortcuts.js"></script>
+	<script src="js/codeslate.js"></script>
+	<script src='js/widgetHandler.js'></script>
+
+
+
+</body>
+
+</html>

@@ -165,8 +165,6 @@ function modifyTitleBar(fileName){
 }
 
 
-
-
 function showShortcuts(){
 
 
