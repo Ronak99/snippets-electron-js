@@ -1,4 +1,4 @@
-# snippets-electron-js
+# Snippets Electron JS
 This repository contains the complete code of native code editor built using electron js.
 
 This repository is made to host all the code for the snippets video tutorial present on youtube. Until now it only has this single complete-menu.html.
