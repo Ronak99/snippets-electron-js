@@ -6,3 +6,6 @@ This repository is made to host all the code for the snippets video tutorial pre
 #### About the dependecies
 Dependecies such as jquery.min.js and jquery.menu.js can easily be downloaded from their respective websites just by a simple google search.
 In this file their location is depicted as "js/jquery.min.js" and "js/jquery.menu.js", you can ofcourse change it to whichever location your js and css files are located in.
+
+## YouTube Demo
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
