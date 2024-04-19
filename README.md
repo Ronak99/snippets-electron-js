@@ -8,4 +8,4 @@ Dependecies such as jquery.min.js and jquery.menu.js can easily be downloaded fr
 In this file their location is depicted as "js/jquery.min.js" and "js/jquery.menu.js", you can ofcourse change it to whichever location your js and css files are located in.
 
 ## YouTube Demo
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](https://github.com/Ronak99/snippets-electron-js/blob/master/code-editor-ss.png)](https://www.youtube.com/watch?v=uB-Ard0SI-4)
